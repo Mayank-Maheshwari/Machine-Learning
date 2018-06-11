@@ -5,6 +5,8 @@ import warnings
 from math import sqrt
 from collections import Counter
 
+
+#this function is going to create K nearest neighbor
 def k_nearest_neighbors(data, predict, k=3):
     if len(data) >= k:
         warnings.warn('K is set to a value less than total voting groups!')
